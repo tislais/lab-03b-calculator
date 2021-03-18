@@ -35,16 +35,48 @@ section {
 
 button {
     margin: 0 10px;
+    border: transparent;
+    padding: 5px 10px;
+    background-color: #e5e5e5;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px #999;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #bbb;
+    box-shadow: 0 2px 0 #666;
+    outline: 0;
+}
+
+button:focus {
+    outline: 0;
 }
 
 input {
     width: 50px;
     margin: 0 10px;
+    padding: 4px;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px #aaa;
+}
+
+input:focus {
+    outline: 0;
+    border-color: #888;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 section {
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 
 .result {
