@@ -1,4 +1,4 @@
-import { handleAddClick, handleDivideClick, handleMultiplyClick, handleSubtractClick } from "./handlers.js";
+import { handleAddClick, handleDivideClick, handleMultiplyClick, handleSubtractClick } from './handlers.js';
 
 // Button elements
 const addButton = document.getElementById('add-button');
