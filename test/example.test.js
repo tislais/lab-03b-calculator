@@ -6,7 +6,7 @@ import {
     subtract,
     multiply,
     divide
-} from '../utils.js'
+} from '../utils.js';
 
 const test = QUnit.test;
 

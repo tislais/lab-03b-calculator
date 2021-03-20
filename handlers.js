@@ -37,7 +37,7 @@ export function handleAddClick() {
     const result = add(number1, number2);
     // Do the thing
     addResult.textContent = result;
-};
+}
 
 export function handleSubtractClick() {
     const number1 = subtractInput1.valueAsNumber;
@@ -58,7 +58,7 @@ export function handleMultiplyClick() {
 export function handleDivideClick() {
     const number1 = divideInput1.valueAsNumber;
     const number2 = divideInput2.valueAsNumber;
-    const result = divide(number1, number2);
+    const result = number1 / number2;
     // Do the thing
     divideResult.textContent = result;
 }
